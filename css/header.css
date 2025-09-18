@@ -1,0 +1,39 @@
+header .container{
+    display: flex;
+    padding: 15px ; 
+    list-style:none;
+}
+
+header .container .logo{
+    width:20%;
+}
+
+header .container nav{
+    display: flex;
+    width:80%;
+    justify-content: end;
+    gap: 25px;
+}
+
+.about .title{
+    text-align: center;
+}
+
+.about .subtitle{
+    text-align: center;
+}
+
+.about .container .box{
+    display: inline-block;
+    width: 24%;
+    flex-wrap: wrap;
+    list-style: none;
+    text-align:center;
+}
+
+.about li{
+    font-size: 300%;
+}
+
+ 
+
